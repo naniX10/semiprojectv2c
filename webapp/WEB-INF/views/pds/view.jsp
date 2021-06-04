@@ -1,11 +1,8 @@
 <%@ page pageEncoding="UTF-8"%>
-
-
-
 <div id="main">
     <div id="main">
         <div>
-            <h1><i class="fas fa-comments"></i> 자유 게시판</h1>
+            <h1><i class="fas fa-save"></i> 자료실</h1>
             <hr>
         </div> <!-- 페이지 타이틀? -->
         <div>
@@ -36,7 +33,20 @@
                         빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 콜라 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 사이다 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 환타 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 사이다 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 콜라 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 사이다 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 환타 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주
 
                         빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리 빈대떡 소주 빈대떡 맥주 빈대떡 막걸리
-                        </td></tr>
+                        </td></tr><!-- 본문 -->
+                        <tr>
+                            <td colspan="2" class="tbbg4">첨부1 :
+                            <i class="far fa-file-archive"></i>
+                                homework.zip (123PB, 7회 다운로드함)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  class="tbbg4">첨부2 : <i class="far fa-file-image"></i>
+                                homework.png (123TB, 9회 다운로드함)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  class="tbbg4">첨부3 : <i class="far fa-file-alt"></i>
+                                homework.txt (123GB, 10회 다운로드함)</td>
+                        </tr>
                 </table>
             </div><!-- 가슴 -->
             <div class="row">
@@ -48,12 +58,11 @@
                     <i class="fas fa-times-circle"></i> 삭제하기</button>
                 </div>
                 <div class="col-5 text-right">
-                    <a href="/board/list"><button type="button" class="btn btn-secondary"><i class="fas fa-list"></i>&nbsp; 목록으로</button></a>
+                    <a href="/pds/list" ><button type="button" class="btn btn-secondary"><i class="fa fa-list"></i>&nbsp; 목록으로</button></a>
                 </div>
             </div><!-- 배 -->
 
         </div> <!-- 본문글 -->
-        <br>
         <div>
             <div class="row">
                 <h3 class="col-10 offset-1"><i class="far fa-comments"></i> 너도 한마디?</h3></div>

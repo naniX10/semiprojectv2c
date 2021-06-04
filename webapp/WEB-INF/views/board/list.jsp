@@ -52,9 +52,9 @@
 
                                 <tr>
                                     <td>1</td>
-                                    <td><a href="view.html">사실 개가 최고에용</a></td>
-                                    <td>고양이</td>
-                                    <td>2021.05.05</td>
+                                    <td><a href="view.html">[날씨]비가오면 빈대떡이지</a></td>
+                                    <td>부침개</td>
+                                    <td>2021.05.21</td>
                                     <td>100</td>
                                     <td>101</td>
                                 </tr>

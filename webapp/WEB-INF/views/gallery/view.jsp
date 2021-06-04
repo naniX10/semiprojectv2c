@@ -56,7 +56,7 @@
                     <i class="fas fa-times-circle"></i> 삭제하기</button>
                 </div>
                 <div class="col-5 text-right">
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-list"></i>&nbsp; 목록으로</button>
+                    <a href="/gallery/list" ><button type="button" class="btn btn-secondary"><i class="fas fa-list"></i>&nbsp; 목록으로</button></a>
                 </div>
             </div><!-- 배 -->
 

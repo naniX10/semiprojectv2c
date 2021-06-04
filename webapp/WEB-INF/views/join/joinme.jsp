@@ -1,5 +1,6 @@
 <%@ page pageEncoding="UTF-8"%>
 
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 <div id="main">
         <div>
@@ -111,7 +112,9 @@
 
                     <div class="form-group row">
                         <label class="col-2 col-form-label text-danger text-right">자동입력방지</label>
-                        <img src="/img/google_recaptcha.gif" width="40%">
+                        <div class="g-recaptcha" 
+				   		data-sitekey="6LfdIwgbAAAAAGZdSMWuY4f3zaKP-dIuhTMUrU8_"></div>
+				   		<input type="hidden" id="g-recaptcha" name="g-recaptcha" />
                     </div><!-- 캡챠 -->
                  </div>
             </div><!-- 정보입력 -->

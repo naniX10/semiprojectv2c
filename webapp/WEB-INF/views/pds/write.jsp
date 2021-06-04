@@ -4,7 +4,7 @@
 
 <div id="main">
     <div>
-        <i class="fas fa-image fa-2x"> 갤러리</i>
+        <i class="fas fa-save fa-2x"> 자료실</i>
         <hr> <!-- 페이지 타이틀? -->
     </div>
     <div class="row">
@@ -50,6 +50,8 @@
 				   		data-sitekey="6LfdIwgbAAAAAGZdSMWuY4f3zaKP-dIuhTMUrU8_"></div>
 				   		<input type="hidden" id="g-recaptcha" name="g-recaptcha" />
                     </div>
+
+
 
 
             <div class="form-group row">

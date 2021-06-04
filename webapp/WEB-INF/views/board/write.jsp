@@ -1,5 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page pageEncoding="UTF-8"%>
+<script src="https://www.google.com/recaptcha/api.js"></script>    
+    
 <div id="main">
    <div>
        <i class="fas fa-comments fa-2x"> 자유 게시판</i>
@@ -29,7 +30,9 @@
                  </div>
                  <div class="form-group row">
                      <label class="col-2 col-form-label text-danger text-right">자동<br>입력방지</label>
-                     <img src="/img/google_recaptcha.gif" width="40%">
+                     <div class="g-recaptcha" 
+				   		data-sitekey="6LfdIwgbAAAAAGZdSMWuY4f3zaKP-dIuhTMUrU8_"></div>
+				   		<input type="hidden" id="g-recaptcha" name="g-recaptcha" />
                  </div>
 
 
