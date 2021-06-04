@@ -9,7 +9,7 @@
 </header>
 
 <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <ul class="navbar-nav nav-dill w-100">
+    <ul class="navbar-nav nav-fill w-100">
         <li class="nav-item"><a href="/intro" class="nav-link">프로젝트소개</a> </li>
         <li class="nav-item"><a href="/join/agree" class="nav-link">회원가입</a> </li>
         <li class="nav-item"><a href="/board/list" class="nav-link">게시판</a> </li>
